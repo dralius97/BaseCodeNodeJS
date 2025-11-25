@@ -1,5 +1,5 @@
-import { Container } from "./container.js";
-import { Identifier } from "./type.js";
+import { Container } from "./container.ts";
+import { Identifier } from "./type.ts";
 
 export const Inject = (token: Identifier) => {
     return (

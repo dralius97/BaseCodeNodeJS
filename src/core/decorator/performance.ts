@@ -1,4 +1,4 @@
-import { Either } from "../../domain/signal/railway.js"
+import { Either } from "../../domain/signal/railway.ts"
 
 export const Perf = <A extends unknown[], R>(
     value: (...args: A) => Promise<Either<R>>, 

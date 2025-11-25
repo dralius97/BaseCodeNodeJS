@@ -1,6 +1,6 @@
 import express from 'express'
-import { Bootstrap } from './infrastructure/bootstrap/index.js'
-new Bootstrap().bootstrap()
+import { Bootstrap } from './infrastructure/bootstrap/init.ts'
+new Bootstrap()
 
 const app = express()
 const port = 3000

@@ -1,5 +1,5 @@
-import { HttpHandler, HttpRequest, HttpResponse } from "../../domain/http/http.js"
-import { Left, Right } from "../../domain/signal/railway.js"
+import { HttpHandler, HttpRequest, HttpResponse } from "../../domain/http/http.ts"
+import { Left, Right } from "../../domain/signal/railway.ts"
 
 export class Middleware {
     private middleware: Map<string|symbol, Function[]>

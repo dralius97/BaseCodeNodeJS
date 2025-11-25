@@ -34,7 +34,8 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitAny": false,
     "strictPropertyInitialization": true, 
-
+    "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
 
     // Recommended Options
     "strict": true,

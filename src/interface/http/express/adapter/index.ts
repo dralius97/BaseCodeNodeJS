@@ -1,11 +1,11 @@
 import { Request, Response } from "express-serve-static-core";
-import { HttpHandler, HttpRequest, HttpResponse } from "../../../../domain/http/http.js";
-import { Middleware } from "../../../../core/middleware/middleware.js";
-import { HttpResponseFormatter } from "../../../../infrastructure/HttpResponseFormatter/index.js";
-import { Left } from "../../../../domain/signal/railway.js";
-import { Inject } from "../../../../core/DI/decorator.js";
-import { TYPE } from "../../../../domain/DI/type.js";
-import { TYPEMDW } from "../../../../domain/middlware/type.js";
+import { HttpHandler, HttpRequest, HttpResponse } from "../../../../domain/http/http.ts";
+import { Middleware } from "../../../../core/middleware/middleware.ts";
+import { HttpResponseFormatter } from "../../../../infrastructure/HttpResponseFormatter/index.ts";
+import { Left } from "../../../../domain/signal/railway.ts";
+import { Inject } from "../../../../core/DI/decorator.ts";
+import { TYPE } from "../../../../domain/DI/type.ts";
+import { TYPEMDW } from "../../../../domain/middlware/type.ts";
 
 export class ExpressAdapter {
     @Inject(TYPE.Middleware) private middleware!: Middleware

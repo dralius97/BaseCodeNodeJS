@@ -1,4 +1,4 @@
-import { Left, Right } from "../signal/railway.js";
+import { Left, Right } from "../signal/railway.ts";
 
 export interface UploadedFile {
   filename: string;
